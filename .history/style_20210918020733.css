@@ -27,8 +27,7 @@ body {
 
 .container {
   width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
+  margin: ;
 }
 
 .navbar {
@@ -45,18 +44,6 @@ body {
   width: 100%;
 }
 
-.hero-container {
-  width: 100%;
-}
-
-.hero-img-container {
-  width: 100%;
-}
-
-.hero-img {
-  width: 100%;
-}
-
 @media (min-width: 768px) {
   .navbar {
     justify-content: space-between;
@@ -69,23 +56,9 @@ body {
     padding: 20px;
     font-size: 20px;
   }
-  .hero-container {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-  }
 }
 
 @media (min-width: 1020px) {
-  .container {
-    max-width: 1010px;
-  }
-  .hero-img-container {
-    width: 500px;
-    height: 500px;
-  }
 }
 
 @media (min-width: 1400px) {

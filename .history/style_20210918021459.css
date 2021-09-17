@@ -74,14 +74,10 @@ body {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
   }
 }
 
 @media (min-width: 1020px) {
-  .container {
-    max-width: 1010px;
-  }
   .hero-img-container {
     width: 500px;
     height: 500px;

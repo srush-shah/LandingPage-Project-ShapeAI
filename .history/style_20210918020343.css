@@ -25,12 +25,6 @@ body {
   border-radius: 6px;
 }
 
-.container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -42,18 +36,6 @@ body {
 }
 
 .navbar-logo {
-  width: 100%;
-}
-
-.hero-container {
-  width: 100%;
-}
-
-.hero-img-container {
-  width: 100%;
-}
-
-.hero-img {
   width: 100%;
 }
 
@@ -69,23 +51,9 @@ body {
     padding: 20px;
     font-size: 20px;
   }
-  .hero-container {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-  }
 }
 
 @media (min-width: 1020px) {
-  .container {
-    max-width: 1010px;
-  }
-  .hero-img-container {
-    width: 500px;
-    height: 500px;
-  }
 }
 
 @media (min-width: 1400px) {

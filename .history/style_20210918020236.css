@@ -13,22 +13,7 @@ body {
 }
 
 .button-primary {
-  background-image: linear-gradient(
-    to right,
-    #ff512f 0%,
-    #dd2476 51%,
-    #ff512f 100%
-  );
-  color: #fff;
-  padding: 12px;
-  border: none;
-  border-radius: 6px;
-}
-
-.container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
+    
 }
 
 .navbar {
@@ -45,16 +30,17 @@ body {
   width: 100%;
 }
 
-.hero-container {
-  width: 100%;
-}
-
-.hero-img-container {
-  width: 100%;
-}
-
-.hero-img {
-  width: 100%;
+.nav-item {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
 }
 
 @media (min-width: 768px) {
@@ -65,27 +51,13 @@ body {
   .navbar-brand {
     width: 150px;
   }
-  .button-primary {
+  .nav-item {
     padding: 20px;
     font-size: 20px;
-  }
-  .hero-container {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
   }
 }
 
 @media (min-width: 1020px) {
-  .container {
-    max-width: 1010px;
-  }
-  .hero-img-container {
-    width: 500px;
-    height: 500px;
-  }
 }
 
 @media (min-width: 1400px) {

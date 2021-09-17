@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* To Box Model */
+}
+
+/* Global */
+
+body {
+    font-family: 'Merriweather', sans-serif;
+    background-color: #ebf2ff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    width: ;
+}

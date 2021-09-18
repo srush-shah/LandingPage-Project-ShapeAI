@@ -66,15 +66,10 @@ body {
 
 /* Menu Styles */
 
-.explore-menu-container {
-  margin-top: 50px;
-}
-
 .explore-menu-text {
   font-size: 30px;
   color: #1d3557;
-  margin: 20px 0;
-  text-align: center;
+  margin: 20px 0; 
 }
 
 .menu-card {
@@ -91,11 +86,6 @@ body {
 
 .food-description {
   padding: 20px;
-}
-
-.explore-menu-button {
-  display: flex;
-  justify-content: center;
 }
 
 @media (min-width: 768px) {

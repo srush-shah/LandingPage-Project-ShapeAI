@@ -95,7 +95,6 @@ body {
 
 .explore-menu-button {
   display: flex;
-  justify-content: center;
 }
 
 @media (min-width: 768px) {

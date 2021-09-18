@@ -66,36 +66,19 @@ body {
 
 /* Menu Styles */
 
-.explore-menu-container {
-  margin-top: 50px;
-}
-
-.explore-menu-text {
-  font-size: 30px;
-  color: #1d3557;
-  margin: 20px 0;
-  text-align: center;
-}
-
 .menu-card {
   width: 100%;
   background-color: #fff;
   border-radius: 8px;
-  margin-bottom: 15px;
 }
 
 .food-image {
   width: 100%;
-  border-radius: 8px 8px 0 0;
+  border-radius: 8;
 }
 
 .food-description {
   padding: 20px;
-}
-
-.explore-menu-button {
-  display: flex;
-  justify-content: center;
 }
 
 @media (min-width: 768px) {

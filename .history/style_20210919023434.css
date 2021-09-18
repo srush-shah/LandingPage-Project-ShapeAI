@@ -23,7 +23,6 @@ body {
   padding: 12px;
   border: none;
   border-radius: 6px;
-  cursor: pointer;
 }
 
 .container {
@@ -62,16 +61,6 @@ body {
   font-size: 30px;
   color: #1d3557;
   margin: 20px 0;
-}
-
-/* Menu Styles */
-
-.menu-card {
-  width: 100%;
-}
-
-.food-image {
-  width: 100%;
 }
 
 @media (min-width: 768px) {

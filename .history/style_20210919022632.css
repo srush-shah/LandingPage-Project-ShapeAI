@@ -23,7 +23,6 @@ body {
   padding: 12px;
   border: none;
   border-radius: 6px;
-  cursor: pointer;
 }
 
 .container {
@@ -58,21 +57,7 @@ body {
   width: 100%;
 }
 
-.hero-text {
-  font-size: 30px;
-  color: #1d3557;
-  margin: 20px 0;
-}
-
-/* Menu Styles */
-
-.menu-card {
-  width: 100%;
-}
-
-.food-image {
-  width: 100%;
-}
+.
 
 @media (min-width: 768px) {
   .navbar {
@@ -83,7 +68,7 @@ body {
     width: 150px;
   }
   .button-primary {
-    padding: 12px 20px;
+    padding: 20px;
     font-size: 20px;
   }
   .hero-container {
@@ -97,15 +82,13 @@ body {
 
 @media (min-width: 1020px) {
   .container {
-    max-width: 900px;
+    max-width: 1010px;
   }
-  .hero-text {
-    font-size: 50px;
+  .hero-img-container {
+    width: 500px;
+    height: 500px;
   }
 }
 
 @media (min-width: 1400px) {
-  .container {
-    max-width: 1250px;
-  }
 }

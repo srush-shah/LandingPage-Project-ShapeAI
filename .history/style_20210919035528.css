@@ -64,16 +64,7 @@ body {
   margin: 20px 0;
 }
 
-/* Menu Styles */
-
-.menu-card {
-  width: 100%;
-}
-
-.food-image {
-  width: 100%;
-}
-
+/* Menu Styles */ 
 @media (min-width: 768px) {
   .navbar {
     justify-content: space-between;

@@ -209,13 +209,13 @@ body {
   .restaurant1,
   .restaurant3 {
     width: 90%;
-    height: 130px;
+    height: 200px;
   }
 
   .restaurant2,
   .restaurant4 {
     width: 110%;
-    height: 150px;
+    height: 250px;
   }
 }
 

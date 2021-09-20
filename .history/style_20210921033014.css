@@ -194,28 +194,9 @@ body {
     margin-top: -20px;
     margin-bottom: 30px;
   }
+  
   .restaurants-container {
     display: flex;
-    align-items: center;
-    margin-top: 50px;
-  }
-  .restaurants-description,
-  .restaurants-flex {
-    width: 100%;
-  }
-  .restaurants-description {
-    margin-right: 50px;
-  }
-  .restaurant1,
-  .restaurant3 {
-    width: 90%;
-    height: 130px;
-  }
-
-  .restaurant2,
-  .restaurant4 {
-    width: 110%;
-    height: 150px;
   }
 }
 
@@ -238,17 +219,6 @@ body {
   }
   .restaurants-description {
     font-size: 50px;
-  }
-  .restaurant1,
-  .restaurant3 {
-    width: 90%;
-    height: 200px;
-  }
-
-  .restaurant2,
-  .restaurant4 {
-    width: 110%;
-    height: 250px;
   }
 }
 

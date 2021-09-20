@@ -199,24 +199,6 @@ body {
     align-items: center;
     margin-top: 50px;
   }
-  .restaurants-description,
-  .restaurants-flex {
-    width: 100%;
-  }
-  .restaurants-description {
-    margin-right: 50px;
-  }
-  .restaurant1,
-  .restaurant3 {
-    width: 90%;
-    height: 130px;
-  }
-
-  .restaurant2,
-  .restaurant4 {
-    width: 110%;
-    height: 150px;
-  }
 }
 
 @media (min-width: 1020px) {

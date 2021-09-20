@@ -109,12 +109,9 @@ body {
 
 .row-one {
   align-items: baseline;
-  margin-bottom: 4px;
 }
 
-.row-two {
-  flex-direction: row-reverse;
-}
+.row-two
 
 .restaurant1-image,
 .restaurant2-image,
@@ -122,26 +119,18 @@ body {
 .restaurant4-image {
   width: 100%;
   height: 100%;
-  border-radius: 7px;
 }
 
 .restaurant1,
 .restaurant3 {
-  width: 90%;
-  height: 110px;
+  width: 100%;
+  height: 150px;
 }
 
 .restaurant2,
 .restaurant4 {
-  width: 110%;
-  height: 130px;
-}
-
-.restaurants-description {
-  font-size: 30px;
-  color: #1d3557;
-  margin: 20px 0;
-  text-align: center;
+  width: 100%;
+  height: 200px;
 }
 
 @media (min-width: 768px) {
@@ -194,29 +183,6 @@ body {
     margin-top: -20px;
     margin-bottom: 30px;
   }
-  .restaurants-container {
-    display: flex;
-    align-items: center;
-    margin-top: 50px;
-  }
-  .restaurants-description,
-  .restaurants-flex {
-    width: 100%;
-  }
-  .restaurants-description {
-    margin-right: 50px;
-  }
-  .restaurant1,
-  .restaurant3 {
-    width: 90%;
-    height: 130px;
-  }
-
-  .restaurant2,
-  .restaurant4 {
-    width: 110%;
-    height: 150px;
-  }
 }
 
 @media (min-width: 1020px) {
@@ -235,20 +201,6 @@ body {
   }
   .explore-menu-text {
     font-size: 50px;
-  }
-  .restaurants-description {
-    font-size: 50px;
-  }
-  .restaurant1,
-  .restaurant3 {
-    width: 90%;
-    height: 200px;
-  }
-
-  .restaurant2,
-  .restaurant4 {
-    width: 110%;
-    height: 250px;
   }
 }
 

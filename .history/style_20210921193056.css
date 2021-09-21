@@ -319,8 +319,7 @@ body {
     max-width: 1250px;
   }
   .hero-text,
-  .explore-menu-text,
-  .restaurants-description {
+  .explore-menu-text {
     font-size: 50px;
   }
   .subscribe {

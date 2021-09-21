@@ -280,10 +280,10 @@ body {
     padding: 0 20px;
   }
   .explore-menu-text {
-    font-size: 40px;
+    font-size: 50px;
   }
   .restaurants-description {
-    font-size: 40px;
+    font-size: 50px;
   }
   .restaurant1,
   .restaurant3 {
@@ -317,11 +317,6 @@ body {
 @media (min-width: 1400px) {
   .container {
     max-width: 1250px;
-  }
-  .hero-text,
-  .explore-menu-text,
-  .restaurants-description {
-    font-size: 50px;
   }
   .subscribe {
     margin-top: 100px;

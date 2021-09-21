@@ -159,24 +159,17 @@ body {
 
 .subscribe-flex {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 10px;
 }
 
 #email {
-  padding: 9px 10px;
-  border: 1px solid #ee89a0;
-  background-color: #fcedf0;
-  color: #1d3557;
-  font-weight: 700;
-  border-radius: 4px;
+  padding: 5px;
 }
 
 .subscribe .button-primary {
-  padding: 7px 12px;
+  padding: 7px 15px;
   border-radius: 3px;
-  background-image: linear-gradient(to right, #ff512f 0%, #dd2476 91%);
-  font-weight: 700;
 }
 
 @media (min-width: 768px) {
@@ -252,17 +245,6 @@ body {
     width: 110%;
     height: 150px;
   }
-  .subscribe {
-    padding: 0 100px;
-  }
-  #email {
-    padding-left: 20px;
-    padding-right: 230px;
-  }
-  .subscribe .button-primary {
-    padding: 7px 12px;
-    font-size: 15px;
-  }
 }
 
 @media (min-width: 1020px) {
@@ -270,7 +252,7 @@ body {
     max-width: 900px;
   }
   .hero-text {
-    font-size: 40px;
+    font-size: 50px;
   }
   .explore-menu-container {
     margin-top: 100px;
@@ -280,10 +262,10 @@ body {
     padding: 0 20px;
   }
   .explore-menu-text {
-    font-size: 40px;
+    font-size: 50px;
   }
   .restaurants-description {
-    font-size: 40px;
+    font-size: 50px;
   }
   .restaurant1,
   .restaurant3 {
@@ -296,51 +278,10 @@ body {
     width: 110%;
     height: 250px;
   }
-  .subscribe {
-    margin-top: 100px;
-    padding: 0 160px;
-  }
-  .subscribe-text {
-    font-size: 40px;
-    margin: 5px 0;
-  }
-  #email {
-    padding-left: 20px;
-    padding-right: 250px;
-  }
-  .subscribe .button-primary {
-    padding: 6px 12px;
-    font-size: 15px;
-  }
 }
 
 @media (min-width: 1400px) {
   .container {
     max-width: 1250px;
-  }
-  .hero-text,
-  .explore-menu-text,
-  .restaurants-description {
-    font-size: 50px;
-  }
-  .subscribe {
-    margin-top: 100px;
-    padding: 0 150px 0 250px;
-  }
-  .subscribe-flex {
-    gap: 20px;
-  }
-  .subscribe-text {
-    font-size: 50px;
-    margin: 5px 0;
-  }
-  #email {
-    padding: 10px 320px 10px 20px;
-    font-size: 20px;
-  }
-  .subscribe .button-primary {
-    padding: 10px 20px;
-    font-size: 18px;
-    border-radius: 7px;
   }
 }

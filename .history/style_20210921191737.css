@@ -270,7 +270,7 @@ body {
     max-width: 900px;
   }
   .hero-text {
-    font-size: 40px;
+    font-size: 50px;
   }
   .explore-menu-container {
     margin-top: 100px;
@@ -280,10 +280,10 @@ body {
     padding: 0 20px;
   }
   .explore-menu-text {
-    font-size: 40px;
+    font-size: 50px;
   }
   .restaurants-description {
-    font-size: 40px;
+    font-size: 50px;
   }
   .restaurant1,
   .restaurant3 {
@@ -297,7 +297,7 @@ body {
     height: 250px;
   }
   .subscribe {
-    margin-top: 100px;
+    margin-top: 100px auto;
     padding: 0 160px;
   }
   .subscribe-text {
@@ -317,30 +317,5 @@ body {
 @media (min-width: 1400px) {
   .container {
     max-width: 1250px;
-  }
-  .hero-text,
-  .explore-menu-text,
-  .restaurants-description {
-    font-size: 50px;
-  }
-  .subscribe {
-    margin-top: 100px;
-    padding: 0 150px 0 250px;
-  }
-  .subscribe-flex {
-    gap: 20px;
-  }
-  .subscribe-text {
-    font-size: 50px;
-    margin: 5px 0;
-  }
-  #email {
-    padding: 10px 320px 10px 20px;
-    font-size: 20px;
-  }
-  .subscribe .button-primary {
-    padding: 10px 20px;
-    font-size: 18px;
-    border-radius: 7px;
   }
 }

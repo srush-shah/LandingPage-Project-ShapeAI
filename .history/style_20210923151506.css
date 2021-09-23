@@ -53,6 +53,7 @@ body {
 .hero-img-container {
   width: 100%;
   position: relative;
+  margin-top: 30px;
 }
 
 .hero-img,
@@ -62,7 +63,6 @@ body {
 }
 
 .hero-img {
-  margin-top: 20px;
   width: 100%;
   left: auto;
   right: auto;
@@ -277,7 +277,7 @@ body {
     gap: 10px;
   }
   .hero-img {
-    margin-top: 40px;
+    margin-top: 30px;
   }
 
   .explore-menu-container {

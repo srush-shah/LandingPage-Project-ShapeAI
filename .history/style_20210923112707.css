@@ -52,23 +52,11 @@ body {
 
 .hero-img-container {
   width: 100%;
-  position: relative;
-}
-
-.hero-img,
-.hero-img-bg-solid {
-  width: 100%;
-  position: absolute;
+  posi
 }
 
 .hero-img {
-  margin-top: 20px;
   width: 100%;
-  left: auto;
-  right: auto;
-  z-index: 2;
-  border-radius: 6px;
-  box-shadow: 0 25px 25px -12px rgb(0 0 0 / 25%);
 }
 
 .hero-text {
@@ -275,9 +263,6 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-  }
-  .hero-img {
-    margin-top: 40px;
   }
 
   .explore-menu-container {

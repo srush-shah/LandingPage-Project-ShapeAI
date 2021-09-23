@@ -56,20 +56,25 @@ body {
 }
 
 .hero-img,
+.hero-img-bg-pattern,
 .hero-img-bg-solid {
   width: 100%;
   position: absolute;
 }
 
 .hero-img {
-  margin-top: 20px;
-  width: 100%;
-  left: auto;
   right: auto;
+  left: auto;
   z-index: 2;
   border-radius: 6px;
   box-shadow: 0 25px 25px -12px rgb(0 0 0 / 25%);
 }
+
+.hero-img-bg-solid {
+  bottom: 1;
+}
+
+.hero-
 
 .hero-text {
   font-size: 30px;
@@ -80,7 +85,7 @@ body {
 /* Menu Styles */
 
 .explore-menu-container {
-  margin-top: 50px;
+  margin-top: 200px;
 }
 
 .explore-menu-text {
@@ -275,9 +280,6 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-  }
-  .hero-img {
-    margin-top: 40px;
   }
 
   .explore-menu-container {

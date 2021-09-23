@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Zomato - Largest Food Delivery Network</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="navbar-brand">
+          <img src="./assets/logo.png" alt="logo" class="navbar-logo" />
+        </div>
+        <div class="navbar-nav">
+          <button class="nav-item button-primary">Order Food</button>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <!-- Hero Section -->
+      <section class="hero-container">
+        <div class="hero-img-container">
+          <img src="./assets/hero.jpg" alt="Hero Image" class="hero-img" />
+        </div>
+        <div class="hero-description">
+          <h1 class="hero-text">
+            Order food from favorite restaurants near you.
+          </h1>
+          <button class="button-primary">Order Food</button>
+        </div>
+      </section>
+
+      <!-- Explore Menu -->
+      <section class="explore-menu-container">
+        <h1 class="explore-menu-text">Explore Our Menu</h1>
+        <div class="explore-menu-bg"></div>
+        <div class="explore-menu-lists">
+          <div class="menu-card">
+            <img src="./assets/burger.jpg" alt="burger" class="food-image" />
+            <div class="food-description">
+              <h3 class="food-title">Burgers</h3>
+              <p class="restaurants">
+                Burger King, Burger Place <span style="color: red">+3</span>
+              </p>
+            </div>
+          </div>
+          <div class="menu-card" id="pizza-card">
+            <img src="./assets/pizza.jpg" alt="pizza" class="food-image" />
+            <div class="food-description">
+              <h3 class="food-title">Pizza</h3>
+              <p class="restaurants">
+                Pizza Hut, Domino's Pizza <span style="color: red">+3</span>
+              </p>
+            </div>
+          </div>
+          <div class="menu-card">
+            <img
+              src="./assets/iceCream.jpg"
+              alt="IceCream"
+              class="food-image"
+            />
+            <div class="food-description">
+              <h3 class="food-title">Ice Creams</h3>
+              <p class="restaurants">
+                Baskin Robins, Ibaco <span style="color: red">+3</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="explore-menu-button">
+          <button class="button-primary">View More</button>
+        </div>
+      </section>
+
+      <!-- Restaurants -->
+      <section class="restaurants-container">
+        <h1 class="restaurants-description">Order From 100s of Restaurants</h1>
+        <div class="restaurants-flex">
+          <div class="row-one">
+            <div class="restaurant1">
+              <img
+                src="./assets/restaurant1.jpg"
+                alt="restaurant1"
+                class="restaurant1-image"
+              />
+            </div>
+            <div class="restaurant2">
+              <img
+                src="./assets/restaurant2.jpg"
+                alt="restaurant2"
+                class="restaurant2-image"
+              />
+            </div>
+          </div>
+          <div class="row-two">
+            <div class="restaurant3">
+              <img
+                src="./assets/restaurant3.jpg"
+                alt="restaurant3"
+                class="restaurant3-image"
+              />
+            </div>
+            <div class="restaurant4">
+              <img
+                src="./assets/restaurant4.jpg"
+                alt="restaurant4"
+                class="restaurant4-image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Subscribe -->
+      <section class="subscribe">
+        <h1 class="subscribe-text">Stay Updated</h1>
+        <div class="subscribe-flex">
+          <div class="subscribe-form-container">
+            <form class="subscribe-form">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="email@email.com"
+              />
+            </form>
+          </div>
+          <button class="button-primary">Get Updates</button>
+        </div>
+      </section>
+
+      <!-- Quote -->
+      <section class="quote">
+        <div class="quote-bg"></div>
+        <div class="quote-fg">
+          <p></p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
